@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/eventsEnum.ts"],
+  "sourcesContent": ["export default {\n\tCONNECTION: 'connection',\n\tGET_CARDS: 'get_cards',\n\tGET_VOTING_CARD: 'get_voting_card',\n\tDISCONNECT: 'disconnect',\n\tUSER_DISCONNECTED: 'user_disconnected',\n\tMESSAGE: 'message',\n\tNEW_CLIENT: 'new_client',\n\tREGISTER: 'register',\n\tGET_CONNECTED_CLIENTS: 'get_connected_clients',\n\tCONNECTED_CLIENTS: 'connected_clients',\n\tSET_VOTING_CARD: 'set_voting_card',\n\tNEW_VOTING_CARD: 'new_voting_card',\n\tVOTE: 'vote',\n\tUPDATE_CARDS: 'update_cards',\n\tUSER_VOTED: 'user_voted',\n\tUPDATE_USERS: 'update_users',\n\tALL_USERS_VOTED: 'all_users_voted',\n\tSHOW_VOTES: 'show_votes',\n\tNOTIFY_SHOW_VOTES: 'notify_show_votes'\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA,IAAO,qBAAQ;AAAA,EACd,YAAY;AAAA,EACZ,WAAW;AAAA,EACX,iBAAiB;AAAA,EACjB,YAAY;AAAA,EACZ,mBAAmB;AAAA,EACnB,SAAS;AAAA,EACT,YAAY;AAAA,EACZ,UAAU;AAAA,EACV,uBAAuB;AAAA,EACvB,mBAAmB;AAAA,EACnB,iBAAiB;AAAA,EACjB,iBAAiB;AAAA,EACjB,MAAM;AAAA,EACN,cAAc;AAAA,EACd,YAAY;AAAA,EACZ,cAAc;AAAA,EACd,iBAAiB;AAAA,EACjB,YAAY;AAAA,EACZ,mBAAmB;AAAA;",
+  "names": []
+}

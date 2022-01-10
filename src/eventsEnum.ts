@@ -1,0 +1,21 @@
+export default {
+	CONNECTION: 'connection',
+	GET_CARDS: 'get_cards',
+	GET_VOTING_CARD: 'get_voting_card',
+	DISCONNECT: 'disconnect',
+	USER_DISCONNECTED: 'user_disconnected',
+	MESSAGE: 'message',
+	NEW_CLIENT: 'new_client',
+	REGISTER: 'register',
+	GET_CONNECTED_CLIENTS: 'get_connected_clients',
+	CONNECTED_CLIENTS: 'connected_clients',
+	SET_VOTING_CARD: 'set_voting_card',
+	NEW_VOTING_CARD: 'new_voting_card',
+	VOTE: 'vote',
+	UPDATE_CARDS: 'update_cards',
+	USER_VOTED: 'user_voted',
+	UPDATE_USERS: 'update_users',
+	ALL_USERS_VOTED: 'all_users_voted',
+	SHOW_VOTES: 'show_votes',
+	NOTIFY_SHOW_VOTES: 'notify_show_votes'
+}

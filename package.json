@@ -1,0 +1,47 @@
+{
+  "name": "back-plan-poker",
+  "version": "1.0.0",
+  "description": "backend application for plan-poker website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node -r dotenv/config ./dist/server.js",
+    "dev": "nodemon",
+    "dev:old": "nodemon  -r dotenv/config src/server.ts",
+    "build": "etsc"
+  },
+  "keywords": [],
+  "author": "Lucas Becker",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "socket.io": "^4.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/cron": "^1.7.3",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.6",
+    "@types/uuid": "^8.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "esbuild": "^0.14.11",
+    "esbuild-node-tsc": "^1.8.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslit": "^6.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "sucrase": "^3.20.3",
+    "typescript": "^4.5.4"
+  }
+}

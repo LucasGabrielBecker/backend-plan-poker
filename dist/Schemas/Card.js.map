@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/Schemas/Card.ts"],
+  "sourcesContent": ["import mongoose from \"mongoose\";\n\nconst CardScheema = new mongoose.Schema(\n  {\n    title: {\n      type: String,\n      required: true,\n    },\n    description: {\n      type: String,\n      required: false,\n    },\n  },\n  { timestamps: true }\n);\nexport const Card = mongoose.model(\"Card\", CardScheema);\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA,sBAAqB;AAErB,MAAM,cAAc,IAAI,wBAAS,OAC/B;AAAA,EACE,OAAO;AAAA,IACL,MAAM;AAAA,IACN,UAAU;AAAA;AAAA,EAEZ,aAAa;AAAA,IACX,MAAM;AAAA,IACN,UAAU;AAAA;AAAA,GAGd,EAAE,YAAY;AAET,MAAM,OAAO,wBAAS,MAAM,QAAQ;",
+  "names": []
+}

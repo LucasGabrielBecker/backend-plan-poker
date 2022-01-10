@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/Schemas/Room.ts"],
+  "sourcesContent": ["import mongoose from \"mongoose\";\r\n\r\nconst RoomSchema = new mongoose.Schema(\r\n  {\r\n    name: String,\r\n    cards: [{ type: mongoose.Schema.Types.ObjectId, ref: \"Card\" }],\r\n  },\r\n  { timestamps: true }\r\n);\r\n\r\nexport const Room = mongoose.model(\"Room\", RoomSchema);\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA,sBAAqB;AAErB,MAAM,aAAa,IAAI,wBAAS,OAC9B;AAAA,EACE,MAAM;AAAA,EACN,OAAO,CAAC,EAAE,MAAM,wBAAS,OAAO,MAAM,UAAU,KAAK;AAAA,GAEvD,EAAE,YAAY;AAGT,MAAM,OAAO,wBAAS,MAAM,QAAQ;",
+  "names": []
+}

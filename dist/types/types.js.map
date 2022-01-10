@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/types/types.ts"],
+  "sourcesContent": ["import { Request, Response } from 'express'\nimport { Socket } from 'socket.io'\nimport { DefaultEventsMap } from 'socket.io/dist/typed-events'\n\nexport type SocketType = Socket<DefaultEventsMap, any>\nexport type ExpressRequest = {\n\treq: Request\n\tres: Response\n}\n\nexport type Room = {\n\tid?: string\n\tname: string\n}\n\nexport type UsersVoted = {\n\tid: string\n\tcardId: string\n\tpoints: number\n}\nexport type User = {\n\tid: string\n\tusername: string\n\tsocketId: string\n\tpoints?: any\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;",
+  "names": []
+}
