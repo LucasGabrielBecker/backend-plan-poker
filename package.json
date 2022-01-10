@@ -5,10 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run build && node -r dotenv/config ./dist/server.js",
+    "start": "node -r dotenv/config ./dist/server.js",
     "dev": "nodemon",
     "dev:old": "nodemon  -r dotenv/config src/server.ts",
-    "build": "etsc"
+    "build": "npx esbuild-node-tsc"
   },
   "keywords": [],
   "author": "Lucas Becker",
